@@ -1,0 +1,175 @@
+<html>
+<head>
+  <title>JOB APPLICATION FORM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon1.ico">"
+<body>
+
+  <div class="content">
+    <div class="heading">
+      <h1>JOB APPLICATION</h1>
+    </div>
+    <div class="sub-heading top">
+      <p>PERSONAL DETAILS</p>
+    </div>
+    <div class="container">
+    <form method="get"action="index.html"  target="_blank">
+       <div class="personal">
+         <div class="row">
+           <div class="col-10">
+             <input type="text" name="first_name" id="first_name" required="required" placeholder="First Name">
+           </div>
+          </div>
+           <div class="row">
+             <div class="col-10">
+               <input type="text" required="required" id="last_name" placeholder="Last Name">
+             </div>
+           </div>
+        </div>
+        <div class="personal">
+          <div class="row">
+            <div class="col-10">
+              <input type="email" name="email" id="email" required="required" placeholder="Email">
+            </div>
+           </div>
+            <div class="row">
+              <div class="col-10">
+                <input type="tel" class="telephone" placeholder="Mobile No">
+              </div>
+            </div>
+         </div>
+         <div class="personal">
+           <div class="row">
+             <div class="col-10">
+               <input type="text" name="address" id="address" placeholder="Address">
+             </div>
+            </div>
+             <div class="row">
+               <div class="col-10">
+                 <select id="countrySelect"  class="father_in">
+                   <option>Choose State</option>
+                   <option>Maharashtra</option>
+                   <option>Kerala</option>
+                   <option>Karnataka</option>
+                   <option>Tamil Nadu</option>
+                   <option>Punjab</option>
+                   <option>Arunachal Pradesh</option>
+                   <option>Assam</option>
+                   <option>Goa</option>
+                   <option>Andhra Pradesh</option>
+                   <option>Gujrat</option>
+                   <option>Uttar Pradesh</option>
+                   <option>Bihar</option>
+                 </select>
+               </div>
+             </div>
+          </div>
+      <div class="personal">
+        <div class="row">
+          <div class="col-10">
+            <input type="text" name="city" id="city" placeholder="City">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-10">
+            <input type="text" name="zip" class="form-control" id="zip" placeholder="Zip Code">
+          </div>
+        </div>
+     </div>
+      <div class="personal">
+        <div class="row">
+          <div class="gender">
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id = "female" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="other" value="Other">
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="not" value="Not">
+            <label for="not">Prefer not to say</label>
+          </div>
+        </div>
+      </div>
+      <div class="sub-heading second">
+        <p>QUALIFICATIONS</p>
+      </div>
+      <div class="qualification">
+        <div class="row">
+          <div class="col-10">
+            <select class="course" name="course">
+              <option>Choose Course</option>
+              <option>Bachelors of Engineering (IT)</option>
+              <option>Bachelors of Engineering (CS)</option>
+              <option>Bachelors of Engineering (EXTC)</option>
+              <option>Bachelors of Engineering (MECH)</option>
+              <option>Bachelors of Science (IT)</option>
+              <option>Bachelors of Science (CS)</option>
+            </select>
+          </div>
+        </div>
+       </div>
+       <div class="qualification">
+         <div class="row">
+           <div class="col-10">
+             <label class="date">Year of Graduation</label>
+             <select class="value" name="">
+                 <option>2015</option>
+                 <option>2016</option>
+                 <option>2017</option>
+                 <option>2018</option>
+                 <option>2019</option>
+                 <option>2020</option>
+                 <option>2021</option>
+                 <option>2022</option>
+                 <option>2023</option>
+               </select>
+
+             </select>
+           </div>
+         </div>
+       </div>
+       <div class="qualification">
+         <div class="row">
+           <div class="col-10">
+             <input type="number" class = "cgpa" placeholder="Average CGPA out of 10" />
+           </div>
+         </div>
+       </div>
+       <div class="sub-heading last">
+         <p>WORK EXPERIENCE</p>
+       </div>
+       <div class="skills">
+         <div class="row">
+           <div class="col-10">
+             <label for="experience" class="work">Your Experience related to this work.</label>
+             <textarea name="work" class="write" placeholder="For eg. Your Internships, Coding Languages you've mastered in." rows="8" cols="80"></textarea>
+           </div>
+         </div>
+       </div>
+       <div class="skills">
+         <div class="row">
+           <div class="col-10">
+             <label for="experience" class="hire">Why should we hire you?</label>
+             <textarea name="hire" class="reason" placeholder="Write something.." rows="8" cols="80"></textarea>
+           </div>
+         </div>
+       </div>
+         <div class="upload">
+           <div class="row">
+             <div class="col-10">
+                  <label class="cv">Upload your CV:</label>
+                  <input class="file"type="file" name="file">
+            </div>
+           </div>
+         </div>
+              <div class="submit">
+                <button type="submit" class="btn">Submit</button>
+              </div>
+    </form>
+   </div>
+  </div>
+
+</body>
+
+</html>

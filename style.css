@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(img/bg6.jpg);
+  height: 800px;
+  margin-left: 0;
+  opacity: 5;
+}
+.content{
+  background-color: transparent;
+  width:75%;
+  height: 1000px;
+  margin: 100 auto 0 auto;
+  border-radius: 10px;
+}
+label, select{
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 36px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800px;
+  color: #161D6F;
+}
+.heading{
+  height: 40px;
+  width: 100%;
+  background-color:transparent ;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+input{
+  background-color: #F1EBBB;
+  font-family:sans-serif;
+}
+select{
+  background-color: #F1EBBB;
+  font-family: 'Playfair Display', serif;
+}
+textarea{
+  background-color: #F1EBBB;
+}
+input[type=file]{
+  background-color: transparent;
+  font-family: 'Playfair Display', serif;
+}
+.sub-heading{
+  background-color:#F1EBBB ;
+  font-family: 'Playfair Display', serif;
+  border-radius:10px;
+  font-size: 18px;
+  color:#161D6F;
+  width:250px;
+  height: 40px;
+  font-weight: bold;
+}
+.top{
+  position: relative;
+  top: 10px;
+}
+.second{
+  position: relative;
+  top: -200px;
+}
+.last{
+  position: relative;
+  top: -240px;
+}
+.sub-heading p{
+   padding-left: 35px;
+   padding-top: 10px;
+}
+
+input[type=text], input[type=tel], input[type=email] {
+  padding: 12px;
+  border: 0px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  width: 500px;
+}
+#first_name{
+  position: relative;
+  top: 30px;
+}
+#last_name{
+  position: relative;
+  top: -30px;
+  left:590px;
+}
+#email{
+  position:relative;
+  top: -27px;
+}
+.telephone{
+  position: relative;
+  top: -88px;
+  left: 590px;
+}
+#address{
+  position:relative;
+  top: -85px;
+}
+#city{
+  position: relative;
+  top: -145px;
+}
+#zip{
+  position: relative;
+  top: -205px;
+  left: 590px;
+}
+ #countrySelect{
+  padding: 12px;
+  border: 0px solid black;
+  height: 40px;
+  resize: vertical;
+  width: 500px;
+  position: relative;
+  top: -143px;
+  left: 590px;
+}
+.course{
+  padding: 12px;
+  border: 0px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  width: 500px;
+  position: relative;
+  top: -180px;
+}
+
+.gender{
+  position: relative;
+  top: -200px;
+  padding: 10px;
+}
+.value{
+  padding: 12px;
+  border: 0px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  width: 250px;
+  position: relative;
+  top:-240px;
+  left:600px;
+}
+.date{
+  width: 200px;
+  position: relative;
+  top:-240px;
+  left: 590px;
+}
+
+.number{
+  padding: 12px;
+  border: 0px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  width: 250px;
+  position: absolute;
+  top:475px;
+}
+.cgpa{
+  padding: 12px;
+  border: 0px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  width: 500px;
+  height: 40px;
+  position: relative;
+  top: -240px;
+}
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+  height: 1000px;
+}
+.col-10 {
+  float:left;
+  height:40px;
+  margin:10px;
+  display: inline-block;
+}
+.work{
+  position: relative;
+  bottom: 310px;
+}
+.hire{
+  position: relative;
+  top: -365px;
+  left: 590px;
+}
+.reason{
+  padding: 12px;
+  border: 0px solid black;
+  border-radius: 4px;
+  resize: vertical;
+   position: relative;
+   top: -255px;
+   left: 425px;
+   height: 100px;
+   width: 500px;
+}
+.write{
+  padding: 12px;
+  border:0px solid black;
+  border-radius: 4px;
+  resize: vertical;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  bottom: 200px;
+  left: -270px;
+}
+.cv{
+  position: relative;
+  top:-180px;
+}
+input[type=file]{
+  position: relative;
+  top:-180px;
+  left:20px;
+}
+::-webkit-input-placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+::-moz-placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+:-ms-input-placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;
+}
+::placeholder {
+  color: black;
+  font-size: 14px;
+  font-family: 'Playfair Display', serif;x;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.btn {
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 28px;
+  background: #161D6F;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: -150px;
+}
+
+.btn:hover {
+  background: #268dcc;
+  text-decoration: none;
+}
